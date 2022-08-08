@@ -1,0 +1,597 @@
+.header-bg{
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../img/bg.jpg) center/cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.nav-bg{
+    background-color: rgba(0, 0, 0, 0.829);
+    position: fixed;
+    width: 100%
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.313);
+}
+.nav1-content{
+    display: flex;
+    color: #fff;
+}
+.nav1-content h2{
+    padding-right: 20px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav1-icons a{
+    color: #fff;
+    transition: 0.3s;
+}
+.nav1-icons a:hover{
+    color: #c6b069;
+}
+.nav1-icons i{
+    padding: 0 10px;
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.nav2 ul{
+    display: flex;
+}
+.nav2 li a{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+.nav2 li{
+    padding: 5px 20px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 2px 15px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown-content a:hover {background-color: gray}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: transparent;
+}
+
+.header-content{
+    text-align: center;
+    padding-top: 300px;
+    color: #fff;
+}
+.header-content h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    width: 600px;
+    margin: 0 auto;
+    font-weight: 600;
+}
+.header-content p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    font-weight: lighter;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.header-button{
+    padding-top: 50px;
+}
+.header-button button{
+    padding: 12px 30px;
+    background-color: #c6b069;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    outline: none;
+    border: 0;
+    border: 1px solid rgb(0, 0, 0);
+    transition: .3s;
+    cursor: pointer;
+}
+.header-button button:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.main-content{
+    padding-top: 100px;
+    text-align: center;
+    color: #000;
+}
+.main-content h2{
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.main-content p{
+    color: rgba(0, 0, 0, 0.447);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.main-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.main-card{
+    margin: 20px;
+    transition: 0.3s;
+}
+.main-card:hover{
+    background-color: #c6b06996;
+    border-radius: 10px;
+}
+.main-card-content{
+    text-align: center;
+    border: 1px solid rgba(232, 228, 228, 0.957);
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.main-card-content h2{
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    padding-bottom: 25px;
+}
+.main-card-content p{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    padding-bottom: 10px;
+    line-height: 25px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.main2-bg{
+    background-color: #c6b069;
+}
+
+.main2-content{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #fff;
+}
+.main2-content h2{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.main2-content p{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.main2-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.main2-card{
+    padding: 32px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.main2-card-icon_h2{
+    display: flex;
+    align-items: center;
+
+}
+.main2-icon i{
+    font-size: 23px;
+    padding-right: 20px;
+}
+.main2-card-h2 h2{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.main2-card-p p{
+    width: 300px;
+    margin-top: 15px;
+    color: #777;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.main3-content{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #000;
+}
+.main3-content h2{
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.main3-content p{
+    color: rgba(0, 0, 0, 0.447);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.main3-cards{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+.main3{
+    display: flex;
+}
+.main3-photo{
+    padding-right: 30px;
+}
+.main3-photo img{
+    width: 40px;
+}
+.main3-card{
+    padding: 20px 30px;
+    border: 1px solid rgba(232, 228, 228, 0.744);
+    border-radius: 10px;
+}
+.main3-card-content p{
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 25px;
+    width: 440px;
+}
+.main3-card-content h2{
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.main3-icons1, .main3-icons2{
+    font-size: 12px;
+    display: flex;
+}
+.main3-icons1 i, .main3-icons2 i{
+    padding: 0 1px;
+}
+.main3-icons1 .icon1, .main3-icons1 .icon2, .main3-icons1 .icon3{
+    color: #c6b069;
+}
+.main3-icons1 .icon4, .main3-icons1 .icon5{
+    color: #777;
+}
+.main3-icons2 .icon1, .main3-icons2 .icon2, .main3-icons2 .icon3, .main3-icons2 .icon4{
+    color: #c6b069;
+}
+.main3-icons2 .icon5{
+    color: #777;
+}
+
+.main4-bg{
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)) , url(../img/main4-bg.jpg) center/cover;
+    border-radius: 10px;
+}
+.main4-content{
+    padding: 120px 0;
+    text-align: center;
+    width: 650px;
+    margin: 0 auto;
+}
+.main4-content h2{
+    font-size: 36px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    line-height: 40px;
+    text-shadow: 0 0 10px #000;
+    padding-bottom: 15px;
+}
+.main4-content p{
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+.main4-button{
+    padding-top: 15px;
+}
+.main4-button button{
+    padding: 12px 30px;
+    background-color: #c6b069;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+    outline: none;
+    border: 0;
+    border: 1px solid rgb(0, 0, 0);
+    transition: .3s;
+    cursor: pointer;
+}
+.main4-button button:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.main5-content{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #000;
+}
+.main5-content h2{
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.main5-content p{
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.main5-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+.main5-photo{
+    padding-bottom: 20px;
+}
+
+.main5-buttons button{
+    color: rgba(34, 34, 34, 0.89);
+    background-color: transparent;
+    padding: 7px 9px;
+    font-size: 14px;
+    outline: none;
+    border: 0;
+    border: 1px solid rgba(119, 119, 119, 0.192);
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main5-buttons button:hover{
+    color: #fff;
+    background-color: #c6b069;
+}
+.main5-card-content h2{
+    color: #222;
+    margin: 20px 0;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.main5-card-content p{
+    color: rgb(34, 34, 34);
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    width: 350px;
+}
+.main5-card-content h3{
+    color: #000;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.main6-bg{
+    background-color: #f9f9ff;
+    padding: 100px;
+}
+.main6-imgs{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.main6-imgs img{
+    filter:grayscale(1.1);
+    opacity: 0.5;
+    transition: .3s;
+    cursor: pointer;
+}
+.main6-imgs img:hover{
+    filter:unset;
+    opacity: 1;
+}
+
+
+@media (max-width:768px){
+    .main6-imgs img{
+        margin-bottom: 50px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .main5-card-content p{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .main5-cards{
+        justify-content: center;
+        text-align: center;
+    }
+    .main5-card-content h3{
+        margin-bottom: 20px;
+    }
+    .main5-photo img{
+        width: 65%;
+    }
+
+    .main4-content{
+        width: 80%;
+    }
+    .main2-card-p p{
+        width: 80%;
+    }
+    .main3-card{
+        width: 85%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .main3-cards{
+        display: inherit;
+    }
+
+    .main3-card-content p{
+        width: 80%;
+    }
+
+    .header-content{
+        padding-top: 120px;
+    }
+
+    .nav-bg{
+        position: unset;
+    }
+
+    .container{
+        width: unset;
+    }
+    .dropbtn{
+        padding: 2px 21px;
+    }
+
+    .nav1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nav1-content{
+        flex-direction: column;
+    }
+    .nav1-content h2{
+        padding-bottom: 10px;
+        padding-right: 0;
+    }
+    .nav1-content h3{
+        padding-bottom: 10px;
+    }
+
+    .nav2{
+        flex-direction: column;
+    }
+
+    .nav2 ul{
+        flex-direction: column;
+    }
+    .nav2 ul li{
+        padding-top: 10px;
+    }
+    .header-content h2{
+        font-size: 25px;
+        width: 90%;
+    }
+    .header-content p{
+        width: 80%;
+        font-size: 17px;
+    }
+
+    .main-content h2{
+        font-size: 25px;
+    }
+    .main-content p{
+        font-size: 17px;
+    }
+    .main-cards{
+        flex-direction: column;
+    }
+    .main-card{
+        text-align: center;
+    }
+    .main-card-content p{
+        width: 60%;
+    }
+
+
+
+}
+
+@media (min-width:769px) and (max-width:1300px){
+    .container{
+        width: unset;
+    }
+
+    .header-content p{
+        width: 80%;
+    }
+
+    .main-cards{
+        flex-direction: column;
+    }
+}
+
+
